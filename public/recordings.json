@@ -8,7 +8,7 @@
   {
     "name": "den-hoek-af",
     "image": "./recordings/den-hoek-af.jpg",
-    "audio": "https://raw.githubusercontent.com/roelvangils/stroom/master/public/recordings/den-hoek-af.mp3",
+    "audio": "./recordings/den-hoek-af.m4a",
     "backgroundImage": "./recordings/den-hoek-af_bg.jpg"
   },
   {
