@@ -1,26 +1,26 @@
 [
   {
     "name": "british-library",
-    "image": "/recordings/british-library.jpg",
-    "audio": "/recordings/british-library.mp3",
-    "backgroundImage": "/recordings/british-library_bg.jpg"
+    "image": "./recordings/british-library.jpg",
+    "audio": "./recordings/british-library.mp3",
+    "backgroundImage": "./recordings/british-library_bg.jpg"
   },
   {
     "name": "den-hoek-af",
-    "image": "/recordings/den-hoek-af.jpg",
-    "audio": "/recordings/den-hoek-af.mp3",
-    "backgroundImage": "/recordings/den-hoek-af_bg.jpg"
+    "image": "./recordings/den-hoek-af.jpg",
+    "audio": "./recordings/den-hoek-af.mp3",
+    "backgroundImage": "./recordings/den-hoek-af_bg.jpg"
   },
   {
     "name": "taverne-tomberg",
-    "image": "/recordings/taverne-tomberg.jpg",
-    "audio": "/recordings/taverne-tomberg.mp3",
-    "backgroundImage": "/recordings/taverne-tomberg_bg.jpg"
+    "image": "./recordings/taverne-tomberg.jpg",
+    "audio": "./recordings/taverne-tomberg.mp3",
+    "backgroundImage": "./recordings/taverne-tomberg_bg.jpg"
   },
   {
     "name": "msc-world-europa",
-    "image": "/recordings/msc-world-europa.jpg",
-    "audio": "/recordings/msc-world-europa.mp3",
-    "backgroundImage": "/recordings/msc-world-europa_bg.jpg"
+    "image": "./recordings/msc-world-europa.jpg",
+    "audio": "./recordings/msc-world-europa.mp3",
+    "backgroundImage": "./recordings/msc-world-europa_bg.jpg"
   }
 ]

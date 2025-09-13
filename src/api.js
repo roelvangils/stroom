@@ -1,4 +1,4 @@
 export async function getRecordings() {
-  const response = await fetch('/recordings.json');
+  const response = await fetch('./recordings.json');
   return response.json();
 }
