@@ -28,12 +28,9 @@ async function quickTest() {
     // Check audio URLs
     const audioCheck = await page.evaluate(() => {
       const card = document.querySelector('.card');
-      const audioFile = card?.dataset.audio;
-      if (!audioFile) return { error: 'No audio data' };
-
-      // Build the URL
-      const baseUrl = window.location.href.replace(/\/$/, '');
-      const audioUrl = `${baseUrl}/recordings/${audioFile}`;
+      const audioUrl = card?.dataset.audioUrl;
+      const audioFile = card?.dataset.audioFile;
+      if (!audioUrl) return { error: 'No audio URL' };
 
       return { audioFile, audioUrl };
     });
