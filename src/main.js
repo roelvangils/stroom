@@ -14,7 +14,8 @@ function formatName(name) {
 function createCard(recording) {
   const card = document.createElement('div');
   card.className = 'card';
-  card.dataset.audio = recording.audio.split('/').pop();
+  card.dataset.audioUrl = recording.audio;
+  card.dataset.audioFile = recording.audio.split('/').pop();
 
   // Store background image if available
   if (recording.backgroundImage) {
@@ -61,8 +62,9 @@ function initializeAudioPlayers() {
 
   cards.forEach(card => {
     const playButton = card.querySelector('.play-button');
-    const audioFile = card.dataset.audio;
-    const audio = new Audio(`/recordings/${audioFile}`);
+    const audioUrl = card.dataset.audioUrl;
+    const audioFile = card.dataset.audioFile;
+    const audio = new Audio(audioUrl);
     audio.loop = true;
     audio.preload = 'metadata';
 
